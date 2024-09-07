@@ -130,6 +130,21 @@ The project has been deployed using:
 - **Frontend**: Render - [Deployed App](https://dynamic-availability.onrender.com)
 - **Repository** : GitHub - [File] (https://github.com/Ankitpatel239/dynamic-availability-app)
 
+## Environment Variables
+The application relies on environment variables for configuration. Create a `.env` file in the root of your project and add the following:
+
+```env
+## MongoDB Configuration
+MONGODB_URI=mongodb://localhost:27017/dynamic-availability-app
+
+# JWT Configuration
+JWT_SECRET=your_jwt_secret_key
+JWT_EXPIRES_IN=1d
+
+# Other Configurations
+PORT=3000
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
